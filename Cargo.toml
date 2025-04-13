@@ -3,6 +3,13 @@ name = "loco-keycloak-auth"
 version = "0.1.0"
 edition = "2024"
 authors = ["Gabriel Kaszewski"]
+license = "MIT"
+description = "A plug-and-play Keycloak authentication layer for Loco.rs, powered by axum-keycloak-auth. This crate allows you to easily add secure Keycloak authentication to your Loco web app, with full control over protected routes and clean YAML-based config."
+homepage = "https://github.com/GKaszewski/loco-keycloak-auth"
+repository = "https://github.com/GKaszewski/loco-keycloak-auth"
+readme = "README.md"
+keywords = ["loco", "keycloak", "authentication", "axum", "web"]
+categories = ["web"]
 
 [dependencies]
 axum-keycloak-auth = { version = "0.8.2" }
