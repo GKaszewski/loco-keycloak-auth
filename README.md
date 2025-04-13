@@ -22,7 +22,7 @@ Add to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-loco-keycloak-auth = { git = "https://github.com/yourname/loco-keycloak-auth" }
+loco-keycloak-auth = { git = "https://github.com/GKaszewski/loco-keycloak-auth" }
 ```
 
 > **Note**: If you’re using a local path for development:
