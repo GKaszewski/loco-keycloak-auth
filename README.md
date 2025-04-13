@@ -139,7 +139,7 @@ MIT
 ## 🙌 Credits
 
 - Built with ❤️ for the [Loco.rs](https://github.com/loco-rs/loco) ecosystem
-- Powered by [axum-keycloak-auth](https://github.com/filiptibell/axum-keycloak-auth)
+- Powered by [axum-keycloak-auth](https://github.com/lpotthast/axum-keycloak-auth)
 
 ---
 
