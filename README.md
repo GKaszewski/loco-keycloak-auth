@@ -71,6 +71,13 @@ impl Hooks for App {
 ```rust
 use loco_keycloak_auth::Keycloak;
 
+pub async fn profile_handler(
+    State(_ctx): State<AppContext>,
+    Extension(token): Extension<KeycloakToken<String>>,
+) -> Result<Response> {
+    format::json(token.subject)
+}
+
 fn routes(ctx: &AppContext) -> Routes {
     let keycloak = Keycloak::from_context(ctx).expect("Failed to create Keycloak layer");
 
