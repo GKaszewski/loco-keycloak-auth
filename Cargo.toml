@@ -9,7 +9,6 @@ homepage = "https://github.com/GKaszewski/loco-keycloak-auth"
 repository = "https://github.com/GKaszewski/loco-keycloak-auth"
 readme = "README.md"
 keywords = ["loco", "keycloak", "authentication", "axum", "web"]
-categories = ["web"]
 
 [dependencies]
 axum-keycloak-auth = { version = "0.8.2" }
