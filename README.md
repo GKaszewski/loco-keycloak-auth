@@ -22,7 +22,7 @@ Add to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-loco-keycloak-auth = { git = "https://github.com/GKaszewski/loco-keycloak-auth" }
+loco-keycloak-auth = "0.1"
 ```
 
 > **Note**: If you’re using a local path for development:
@@ -31,7 +31,7 @@ loco-keycloak-auth = { git = "https://github.com/GKaszewski/loco-keycloak-auth" 
 loco-keycloak-auth = { path = "../loco-keycloak-auth" }
 ```
 
----
+or just do `cargo add loco-keycloak-auth`
 
 ## 🛠 Setup
 
